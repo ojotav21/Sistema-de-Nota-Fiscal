@@ -12,8 +12,9 @@
   </head>
   <body style="background-color:#f8f8ff;">
       <?php
-        include 'verifica_login.php';
+        
         include 'conecta.php';
+        include 'verifica_login.php';
         // esse arquivp deve pegar cada produto selecionado, calcular o sub total de cad item e adcionar
         //  a tabela itns_nf
 

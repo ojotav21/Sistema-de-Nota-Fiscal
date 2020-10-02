@@ -12,12 +12,12 @@
   </head>
   <body style="background-color:#f8f8ff;">
     <?php
-  include 'verifica_login.php';
+
   //Confirma_item.php
   //dps do Body
 
     include 'conecta.php';
-      
+    include 'verifica_login.php';
       $nf = $_SESSION['nf'];
     
       $consulta = "SELECT * FROM itens_nf WHERE num_nf = '$nf'";

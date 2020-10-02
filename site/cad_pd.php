@@ -1,7 +1,7 @@
 <?php
-  include 'verifica_login.php';
-  include 'conecta.php';
   
+  include 'conecta.php';
+  include 'verifica_login.php';
   // formato de data - YYYY- MM-DD
   // Clicar em continuar, será feito um insert
   // na tabela nota_fiscal com a data fornecida e o valor total em vraco que será atualizado mais a frente

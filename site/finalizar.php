@@ -1,7 +1,9 @@
 <?php
 //finalizar.php
+
+include 'conecta.php';
 include 'verifica_login.php';
-	include 'conecta.php';
+
 echo"<br><hr>";
 session_start();
 

@@ -1,6 +1,7 @@
 <?php
-include 'verifica_login.php';
 include 'conecta.php';
+include 'verifica_login.php';
+
 echo "<br>";
 session_start();
 $nf = $_SESSION['nf'];

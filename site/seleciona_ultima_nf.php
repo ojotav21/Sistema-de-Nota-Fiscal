@@ -1,6 +1,6 @@
 <?php
-    include 'verifica_login.php';
     include 'conecta.php';
+    include 'verifica_login.php';
     // echo "<hr>";
     // consulta para selecinar a ultima nota fiscal, a mas recente, a mais recente( aquela que iniciou o sistema)
     $consulta = "SELECT MAX(nf) as ultima FROM nota_fiscal";

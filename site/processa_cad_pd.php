@@ -1,6 +1,7 @@
 <?php
 
 include 'conecta.php';
+include 'verifica_login.php';
 echo "<br>";
 $nomePd = $_POST['nome_pd'];
 $precoPd = $_POST['preco'];

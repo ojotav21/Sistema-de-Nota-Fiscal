@@ -1,6 +1,7 @@
 <?php
-include 'verifica_login.php';
+
     include 'conecta.php';
+    include 'verifica_login.php';
     $data_atual = $_POST['data'];
     echo "$data_atual";
     $consulta = $conexao -> prepare("
