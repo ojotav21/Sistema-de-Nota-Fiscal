@@ -1,0 +1,18 @@
+
+create database loginphp;
+use loginphp;
+
+create table usuario(
+id int PRIMARY KEY auto_increment,
+nome varchar(50),
+email varchar(255),
+senha varchar(100),
+nivel int
+);
+
+INSERT INTO usuario (nome, email, senha, nivel) VALUES
+('Joao Victor Morais', 'joaoteste@gmail.com','1234','1');
+
+
+INSERT INTO usuario (nome, email, senha, nivel) VALUES
+('Anderson Vanin', 'anderson@gmail.com','1234','2');

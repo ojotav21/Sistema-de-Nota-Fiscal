@@ -1,0 +1,25 @@
+create database aula_php;
+use aula_php;
+
+create table nota_fiscal(
+nf int PRIMARY KEY auto_increment,
+data date,
+valor_total decimal(10,2)
+);
+
+create table produtos(
+id int PRIMARY KEY auto_increment,
+nome varchar(50),
+preco decimal(10,2)
+);
+
+create table itens_nf(
+id int PRIMARY KEY auto_increment,
+cod_produto int,
+num_nf int,
+qtde int,
+subtotal decimal(10,2),
+
+FOREIGN KEY(cod_produto) REFERENCES produtos (id),
+FOREIGN KEY(num_nf) REFERENCES nota_fiscal(nf)
+);
